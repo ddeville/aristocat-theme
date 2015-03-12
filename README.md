@@ -2,9 +2,6 @@
 
 Aristocat is a fork of Brogrammer, a flat sexy theme.
 
-![Brogrammer Screenshot](http://i.imgur.com/7EPa8Wm.png)
-![Brogrammer Screenshot](http://i.imgur.com/hXE6jYP.png)
-
 ## Install
 
 ### Via Package Control
