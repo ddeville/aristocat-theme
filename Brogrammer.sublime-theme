@@ -9,11 +9,11 @@
         "layer0.tint": [34,34,34],
         "layer0.inner_margin": 2, // Overlay light puck (for dark content)
         "layer0.opacity": 1,
-        "content_margin": [0,0,0,0],
+        "content_margin": [0,-5,0,0],
         "tab_overlap": 0,
         "tab_width": 140,
         "tab_min_width": 50,
-        "tab_height": 50,
+        "tab_height": 40,
         "mouse_wheel_switch": false
     },
     // Tab element
@@ -91,24 +91,8 @@
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control","attributes": ["dirty"]}],
-        "layer0.texture": {
-            "keyframes":
-            [
-                "Theme - Brogrammer/Brogrammer/circleanim.png",
-                "Theme - Brogrammer/Brogrammer/circleanim2.png",
-                "Theme - Brogrammer/Brogrammer/circleanim3.png",
-                "Theme - Brogrammer/Brogrammer/circleanim4.png",
-                "Theme - Brogrammer/Brogrammer/circleanim5.png",
-                "Theme - Brogrammer/Brogrammer/circleanim6.png",
-                "Theme - Brogrammer/Brogrammer/circleanim5.png",
-                "Theme - Brogrammer/Brogrammer/circleanim4.png",
-                "Theme - Brogrammer/Brogrammer/circleanim3.png",
-                "Theme - Brogrammer/Brogrammer/circleanim2.png",
-                "Theme - Brogrammer/Brogrammer/circleanim.png"
-            ],
-            "loop": true,
-            "frame_time": 0.100
-        },
+        "layer0.texture": "Theme - Brogrammer/Brogrammer/circle@2x.png",
+        "layer0.tint": [231,76,60],
         "layer0.opacity": 1
     },
     {
@@ -187,12 +171,13 @@
     // Tab dropdown
     {
         "class": "show_tabs_dropdown_button",
-        "content_margin": [49, 50, 0, 0],
-        "layer0.texture": "Theme - Brogrammer/Brogrammer/tab-scroll-dropdown-background.png",
-        "layer0.opacity": 0.3,
-        "layer0.inner_margin": [0,0,0,0],
+        "content_margin": [20, 20, 20, 20],
+        "layer0.texture": "",
+        "layer0.opacity": 1.0,
+        "layer0.tint": [25,25,25],
+        "layer0.inner_margin": 0,
         "layer1.texture": "Theme - Brogrammer/Brogrammer/tab-scroll-dropdown.png",
-        "layer1.inner_margin": [0,0,0,0],
+        "layer1.inner_margin": [5,0,-5,0],
         "layer1.tint": [255,255,255],
         "layer1.opacity": 1.0
     },
@@ -200,18 +185,18 @@
         "class": "show_tabs_dropdown_button",
         "attributes": ["hover"],
         "layer1.texture": "Theme - Brogrammer/Brogrammer/tab-scroll-dropdown.png",
-        "layer1.inner_margin": [5,10,5,0],
+        "layer1.inner_margin": [5,0,-5,0],
         "layer1.tint": [231,76,60],
         "layer1.opacity": 1.0
     },
     // Tab scroll left
     {
         "class": "scroll_tabs_left_button",
-        "content_margin": [58, 50, -20, 0],
-        "layer0.texture": "Theme - Brogrammer/Brogrammer/tab-scroll-background-left.png",
-        "layer0.tint": [17,17,17],
-        "layer0.opacity": 0.3,
-        "layer0.inner_margin": [-30,-30,-30,-30],
+        "content_margin": [16, 20, 16, 20],
+        "layer0.texture": "",
+        "layer0.tint": [25,25,25],
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": 0,
         "layer1.texture": "Theme - Brogrammer/Brogrammer/tab-scroll-left.png",
         "layer1.inner_margin": [0,0,0,0],
         "layer1.tint": [255,255,255],
@@ -227,11 +212,11 @@
     // Tab scroll right
     {
         "class": "scroll_tabs_right_button",
-        "content_margin": [58, 50, -20, 0],
-        "layer0.texture": "Theme - Brogrammer/Brogrammer/tab-scroll-background-right.png",
-        "layer0.tint": [17,17,17],
-        "layer0.opacity": 0.3,
-        "layer0.inner_margin": [-30,-30,-30,-30],
+        "content_margin": [16, 20, 16, 20],
+        "layer0.texture": "",
+        "layer0.tint": [25,25,25],
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": 0,
         "layer1.texture": "Theme - Brogrammer/Brogrammer/tab-scroll-right.png",
         "layer1.inner_margin": [0,0,0,0],
         "layer1.tint": [255,255,255],
@@ -381,7 +366,7 @@
         "settings": ["overlay_scroll_bars"],
         "attributes": ["dark"],
         "layer0.texture": "",
-        "layer0.tint":[231,76,60,50]
+        "layer0.tint":[51,51,51]
 
     },
     // Overlay light horizontal puck (for dark content)
@@ -390,7 +375,7 @@
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal","dark"],
         "layer0.texture": "",
-        "layer0.tint":[231,76,60,50]
+        "layer0.tint":[51,51,51]
     },
 
 //
@@ -419,7 +404,7 @@
 
     {
         "class": "minimap_control",
-        "viewport_color": [231,76,60,30]
+        "viewport_color": [231,76,60,50]
     },
 
 //
@@ -499,14 +484,14 @@
         "class": "sidebar_container",
         "layer0.texture": "",
         "layer0.opacity": 1,
-        "layer0.tint": [25,25,25],
+        "layer0.tint": [34,34,34],
         "layer0.inner_margin": [1,5,2,1],
-        "content_margin": [11,9,0,0]
+        "content_margin": [3,3,0,0]
     },
     // Sidebar tree
     {
         "class": "sidebar_tree",
-        "row_padding": [6,6],
+        "row_padding": [6,3],
         "indent":10,
         "indent_offset": 15,
         "indent_top_level": false,
@@ -731,19 +716,19 @@
     // Default button state
     {
         "class": "button_control",
-        "content_margin": [6, 5, 6, 6],
-        "min_size": [75, 18],
+        "content_margin": [4,8,4,8],
+        "min_size": [60,0],
         "layer0.texture": "",
         "layer0.opacity": 1,
         "layer0.tint": [0,0,0],
-        "layer0.inner_margin": [6,6]
+        "layer0.inner_margin": [8,8]
     },
     // Hover button state
     {
         "class": "button_control",
         "attributes": ["hover"],
         "layer0.texture": "",
-        "layer0.tint": [34,34,34]
+        "layer0.tint": [0,0,0]
     },
     // Pressed button state
     {
@@ -760,17 +745,10 @@
     {
         "class": "text_line_control",
         "layer0.texture": "",
+        // "layer0.tint": [118, 255, 205],
         "layer0.tint": [230, 230, 230],
         "layer0.opacity": 1,
-        "content_margin": [3, 6, 0, 3]
-    },
-    {
-        "class": "dropdown_button_control",
-        "content_margin": [10, 10],
-        "layer0.texture": "Theme - Brogrammer/Brogrammer/circleanim.png",
-        "layer0.tint": [231, 76, 60],
-        "layer0.opacity": 1.0,
-        "layer0.inner_margin": [0, 0]
+        "content_margin": [5,7,0,5]
     },
 
 //
@@ -784,7 +762,7 @@
         "layer0.inner_margin": [10, 1],
         "layer0.opacity": 1,
         "layer0.tint": [17,17,17],
-        "content_margin": [0,0,0,0]
+        "content_margin": [0,-3]
     },
     // Quick panel background
     {
@@ -803,7 +781,7 @@
 
     {
         "class": "quick_panel",
-        "row_padding": 15,
+        "row_padding": 6,
         "layer0.tint": [17,17,17],
         "layer0.opacity": 1,
         "dark_content": true
