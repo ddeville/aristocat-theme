@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>name</key>
-    <string>Brogrammer</string>
+    <string>Aristocat</string>
     <key>settings</key>
     <array>
         <dict>
@@ -764,8 +764,8 @@
     <key>colorSpaceName</key>
     <string>sRGB</string>
     <key>semanticClass</key>
-    <string>theme.dark.brogrammer</string>
+    <string>theme.dark.aristocat</string>
     <key>author</key>
-    <string>Ken Wheeler</string>
+    <string>Damien DeVille and Ken Wheeler</string>
 </dict>
 </plist>

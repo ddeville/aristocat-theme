@@ -1,6 +1,6 @@
-# Brogrammer
+# Aristocat
 
-Brogrammer is a flat sexy theme. Pushups not included.
+Aristocat is a fork of Brogrammer, a flat sexy theme.
 
 ![Brogrammer Screenshot](http://i.imgur.com/7EPa8Wm.png)
 ![Brogrammer Screenshot](http://i.imgur.com/hXE6jYP.png)
@@ -9,12 +9,12 @@ Brogrammer is a flat sexy theme. Pushups not included.
 
 ### Via Package Control
 
-Theme is listed as `Theme - Brogrammer` in Will Bond's [Sublime Package Control](https://sublime.wbond.net).
+Theme is listed as `Theme - Aristocat` in Will Bond's [Sublime Package Control](https://sublime.wbond.net).
 
 ### Manual
 
-1. [Download the .zip](https://github.com/kenwheeler/brogrammer-theme/archive/master.zip)
-2. Unzip and rename the folder to `Theme - Brogrammer`
+1. [Download the .zip](https://github.com/ddeville/aristocat-theme/archive/master.zip)
+2. Unzip and rename the folder to `Theme - Aristocat`
 3. Copy the folder into `Packages` directory, which you can find using the menu item `Preferences -> Browse Packages...` in Sublime Text
 
 ## Setup
@@ -24,7 +24,7 @@ Activate the UI theme and color scheme by modifying your user preferences file, 
 ### Example settings
 ```
 {
-  "theme": "Brogrammer.sublime-theme",
-  "color_scheme": "Packages/Theme - Brogrammer/brogrammer.tmTheme"
+  "theme": "Aristocat.sublime-theme",
+  "color_scheme": "Packages/Theme - Aristocat/aristocat.tmTheme"
 }
 ```
